@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
                        DESC
   s.homepage     = "https://github.com/geng199200/UberTransitions"
 
-  s.license      = { :type => "MIT", :file => "LICENSE" }
+   s.license      = "MIT"
 
   s.author        = { "耿磊" => "171973956@qq.com" }
 
