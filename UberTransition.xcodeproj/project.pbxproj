@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		746DA1431CA238AF002C5008 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 746DA1421CA238AF002C5008 /* main.m */; };
+		746DA1461CA238AF002C5008 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 746DA1451CA238AF002C5008 /* AppDelegate.m */; };
+		746DA1491CA238AF002C5008 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 746DA1481CA238AF002C5008 /* ViewController.m */; };
+		746DA14C1CA238AF002C5008 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 746DA14A1CA238AF002C5008 /* Main.storyboard */; };
+		746DA14E1CA238AF002C5008 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 746DA14D1CA238AF002C5008 /* Assets.xcassets */; };
+		746DA1511CA238AF002C5008 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 746DA14F1CA238AF002C5008 /* LaunchScreen.storyboard */; };
+		746DA15C1CA238AF002C5008 /* UberTransitionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 746DA15B1CA238AF002C5008 /* UberTransitionTests.m */; };
+		746DA1671CA238AF002C5008 /* UberTransitionUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 746DA1661CA238AF002C5008 /* UberTransitionUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		746DA1581CA238AF002C5008 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 746DA1361CA238AF002C5008 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 746DA13D1CA238AF002C5008;
+			remoteInfo = UberTransition;
+		};
+		746DA1631CA238AF002C5008 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 746DA1361CA238AF002C5008 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 746DA13D1CA238AF002C5008;
+			remoteInfo = UberTransition;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		746DA13E1CA238AF002C5008 /* UberTransition.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UberTransition.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		746DA1421CA238AF002C5008 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		746DA1441CA238AF002C5008 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		746DA1451CA238AF002C5008 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		746DA1471CA238AF002C5008 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		746DA1481CA238AF002C5008 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		746DA14B1CA238AF002C5008 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		746DA14D1CA238AF002C5008 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		746DA1501CA238AF002C5008 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		746DA1521CA238AF002C5008 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		746DA1571CA238AF002C5008 /* UberTransitionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UberTransitionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		746DA15B1CA238AF002C5008 /* UberTransitionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UberTransitionTests.m; sourceTree = "<group>"; };
+		746DA15D1CA238AF002C5008 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		746DA1621CA238AF002C5008 /* UberTransitionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UberTransitionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		746DA1661CA238AF002C5008 /* UberTransitionUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UberTransitionUITests.m; sourceTree = "<group>"; };
+		746DA1681CA238AF002C5008 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		746DA13B1CA238AF002C5008 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		746DA1541CA238AF002C5008 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		746DA15F1CA238AF002C5008 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		746DA1351CA238AF002C5008 = {
+			isa = PBXGroup;
+			children = (
+				746DA1401CA238AF002C5008 /* UberTransition */,
+				746DA15A1CA238AF002C5008 /* UberTransitionTests */,
+				746DA1651CA238AF002C5008 /* UberTransitionUITests */,
+				746DA13F1CA238AF002C5008 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		746DA13F1CA238AF002C5008 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				746DA13E1CA238AF002C5008 /* UberTransition.app */,
+				746DA1571CA238AF002C5008 /* UberTransitionTests.xctest */,
+				746DA1621CA238AF002C5008 /* UberTransitionUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		746DA1401CA238AF002C5008 /* UberTransition */ = {
+			isa = PBXGroup;
+			children = (
+				746DA1441CA238AF002C5008 /* AppDelegate.h */,
+				746DA1451CA238AF002C5008 /* AppDelegate.m */,
+				746DA1471CA238AF002C5008 /* ViewController.h */,
+				746DA1481CA238AF002C5008 /* ViewController.m */,
+				746DA14A1CA238AF002C5008 /* Main.storyboard */,
+				746DA14D1CA238AF002C5008 /* Assets.xcassets */,
+				746DA14F1CA238AF002C5008 /* LaunchScreen.storyboard */,
+				746DA1521CA238AF002C5008 /* Info.plist */,
+				746DA1411CA238AF002C5008 /* Supporting Files */,
+			);
+			path = UberTransition;
+			sourceTree = "<group>";
+		};
+		746DA1411CA238AF002C5008 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				746DA1421CA238AF002C5008 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		746DA15A1CA238AF002C5008 /* UberTransitionTests */ = {
+			isa = PBXGroup;
+			children = (
+				746DA15B1CA238AF002C5008 /* UberTransitionTests.m */,
+				746DA15D1CA238AF002C5008 /* Info.plist */,
+			);
+			path = UberTransitionTests;
+			sourceTree = "<group>";
+		};
+		746DA1651CA238AF002C5008 /* UberTransitionUITests */ = {
+			isa = PBXGroup;
+			children = (
+				746DA1661CA238AF002C5008 /* UberTransitionUITests.m */,
+				746DA1681CA238AF002C5008 /* Info.plist */,
+			);
+			path = UberTransitionUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		746DA13D1CA238AF002C5008 /* UberTransition */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 746DA16B1CA238AF002C5008 /* Build configuration list for PBXNativeTarget "UberTransition" */;
+			buildPhases = (
+				746DA13A1CA238AF002C5008 /* Sources */,
+				746DA13B1CA238AF002C5008 /* Frameworks */,
+				746DA13C1CA238AF002C5008 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UberTransition;
+			productName = UberTransition;
+			productReference = 746DA13E1CA238AF002C5008 /* UberTransition.app */;
+			productType = "com.apple.product-type.application";
+		};
+		746DA1561CA238AF002C5008 /* UberTransitionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 746DA16E1CA238AF002C5008 /* Build configuration list for PBXNativeTarget "UberTransitionTests" */;
+			buildPhases = (
+				746DA1531CA238AF002C5008 /* Sources */,
+				746DA1541CA238AF002C5008 /* Frameworks */,
+				746DA1551CA238AF002C5008 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				746DA1591CA238AF002C5008 /* PBXTargetDependency */,
+			);
+			name = UberTransitionTests;
+			productName = UberTransitionTests;
+			productReference = 746DA1571CA238AF002C5008 /* UberTransitionTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		746DA1611CA238AF002C5008 /* UberTransitionUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 746DA1711CA238AF002C5008 /* Build configuration list for PBXNativeTarget "UberTransitionUITests" */;
+			buildPhases = (
+				746DA15E1CA238AF002C5008 /* Sources */,
+				746DA15F1CA238AF002C5008 /* Frameworks */,
+				746DA1601CA238AF002C5008 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				746DA1641CA238AF002C5008 /* PBXTargetDependency */,
+			);
+			name = UberTransitionUITests;
+			productName = UberTransitionUITests;
+			productReference = 746DA1621CA238AF002C5008 /* UberTransitionUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		746DA1361CA238AF002C5008 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = com.fengche.cn;
+				TargetAttributes = {
+					746DA13D1CA238AF002C5008 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					746DA1561CA238AF002C5008 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 746DA13D1CA238AF002C5008;
+					};
+					746DA1611CA238AF002C5008 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 746DA13D1CA238AF002C5008;
+					};
+				};
+			};
+			buildConfigurationList = 746DA1391CA238AF002C5008 /* Build configuration list for PBXProject "UberTransition" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 746DA1351CA238AF002C5008;
+			productRefGroup = 746DA13F1CA238AF002C5008 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				746DA13D1CA238AF002C5008 /* UberTransition */,
+				746DA1561CA238AF002C5008 /* UberTransitionTests */,
+				746DA1611CA238AF002C5008 /* UberTransitionUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		746DA13C1CA238AF002C5008 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				746DA1511CA238AF002C5008 /* LaunchScreen.storyboard in Resources */,
+				746DA14E1CA238AF002C5008 /* Assets.xcassets in Resources */,
+				746DA14C1CA238AF002C5008 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		746DA1551CA238AF002C5008 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		746DA1601CA238AF002C5008 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		746DA13A1CA238AF002C5008 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				746DA1491CA238AF002C5008 /* ViewController.m in Sources */,
+				746DA1461CA238AF002C5008 /* AppDelegate.m in Sources */,
+				746DA1431CA238AF002C5008 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		746DA1531CA238AF002C5008 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				746DA15C1CA238AF002C5008 /* UberTransitionTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		746DA15E1CA238AF002C5008 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				746DA1671CA238AF002C5008 /* UberTransitionUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		746DA1591CA238AF002C5008 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 746DA13D1CA238AF002C5008 /* UberTransition */;
+			targetProxy = 746DA1581CA238AF002C5008 /* PBXContainerItemProxy */;
+		};
+		746DA1641CA238AF002C5008 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 746DA13D1CA238AF002C5008 /* UberTransition */;
+			targetProxy = 746DA1631CA238AF002C5008 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		746DA14A1CA238AF002C5008 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				746DA14B1CA238AF002C5008 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		746DA14F1CA238AF002C5008 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				746DA1501CA238AF002C5008 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		746DA1691CA238AF002C5008 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		746DA16A1CA238AF002C5008 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		746DA16C1CA238AF002C5008 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = UberTransition/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fengche.UberTransition;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		746DA16D1CA238AF002C5008 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = UberTransition/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fengche.UberTransition;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		746DA16F1CA238AF002C5008 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = UberTransitionTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fengche.UberTransitionTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UberTransition.app/UberTransition";
+			};
+			name = Debug;
+		};
+		746DA1701CA238AF002C5008 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = UberTransitionTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fengche.UberTransitionTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UberTransition.app/UberTransition";
+			};
+			name = Release;
+		};
+		746DA1721CA238AF002C5008 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = UberTransitionUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fengche.UberTransitionUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = UberTransition;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		746DA1731CA238AF002C5008 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = UberTransitionUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fengche.UberTransitionUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = UberTransition;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		746DA1391CA238AF002C5008 /* Build configuration list for PBXProject "UberTransition" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				746DA1691CA238AF002C5008 /* Debug */,
+				746DA16A1CA238AF002C5008 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		746DA16B1CA238AF002C5008 /* Build configuration list for PBXNativeTarget "UberTransition" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				746DA16C1CA238AF002C5008 /* Debug */,
+				746DA16D1CA238AF002C5008 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		746DA16E1CA238AF002C5008 /* Build configuration list for PBXNativeTarget "UberTransitionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				746DA16F1CA238AF002C5008 /* Debug */,
+				746DA1701CA238AF002C5008 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		746DA1711CA238AF002C5008 /* Build configuration list for PBXNativeTarget "UberTransitionUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				746DA1721CA238AF002C5008 /* Debug */,
+				746DA1731CA238AF002C5008 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 746DA1361CA238AF002C5008 /* Project object */;
+}
