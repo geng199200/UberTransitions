@@ -7,6 +7,8 @@ Pod::Spec.new do |s|
                        DESC
   s.homepage     = "https://github.com/geng199200/UberTransitions"
 
+  s.license      = 'MIT'
+
   s.author        = { "耿磊" => "171973956@qq.com" }
 
   s.source       = { :git => "https://github.com/geng199200/UberTransitions.git", :tag => "0.1" }
